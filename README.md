@@ -6,3 +6,5 @@ Game 1: Even
 [![asciicast](https://asciinema.org/a/UsfqkWI9jQdnc1P3nXSiX2hd9.svg)](https://asciinema.org/a/UsfqkWI9jQdnc1P3nXSiX2hd9)
 Game 2: Calc
 [![asciicast](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN.svg)](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN)
+Game 3: Gcd
+[![asciicast](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed.svg)](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed)
