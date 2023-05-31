@@ -8,3 +8,5 @@ Game 2: Calc
 [![asciicast](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN.svg)](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN)
 Game 3: Gcd
 [![asciicast](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed.svg)](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed)
+Game 4: Progression
+[![asciicast](https://asciinema.org/a/EGjIB7lBv9XvgCeR5cfkGl90s.svg)](https://asciinema.org/a/EGjIB7lBv9XvgCeR5cfkGl90s)
