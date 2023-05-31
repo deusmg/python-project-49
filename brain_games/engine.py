@@ -15,7 +15,7 @@ def game_engine(game):
             print("Correct")
         else:
             print(
-                f"'{answer}'is wrong anser ;(."
+                f"'{answer}'is wrong answer ;(."
                 f"Corrcet answer was '{right_answer}'."
                 )
             print(f"Let's try again, {name}!")

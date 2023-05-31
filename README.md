@@ -3,10 +3,12 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d870332c7f31108acd3/maintainability)](https://codeclimate.com/github/deusmg/python-project-49/maintainability)
 
 Game 1: Even
-[![asciicast](https://asciinema.org/a/UsfqkWI9jQdnc1P3nXSiX2hd9.svg)](https://asciinema.org/a/UsfqkWI9jQdnc1P3nXSiX2hd9)
+[![asciicast](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp.svg)](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp)
 Game 2: Calc
-[![asciicast](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN.svg)](https://asciinema.org/a/ryxuLK14KAD6xooyTYv0xAosN)
+[![asciicast](https://asciinema.org/a/OKRSnqra9yJqCALQQPldE08sM.svg)](https://asciinema.org/a/OKRSnqra9yJqCALQQPldE08sM)
 Game 3: Gcd
-[![asciicast](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed.svg)](https://asciinema.org/a/uN1NZNvhvSkAdUamYmrr5PHed)
+[![asciicast](https://asciinema.org/a/JAgMb6dq3EuAFgeZutCgonPKO.svg)](https://asciinema.org/a/JAgMb6dq3EuAFgeZutCgonPKO)
 Game 4: Progression
-[![asciicast](https://asciinema.org/a/EGjIB7lBv9XvgCeR5cfkGl90s.svg)](https://asciinema.org/a/EGjIB7lBv9XvgCeR5cfkGl90s)
+[![asciicast](https://asciinema.org/a/iuxggSZG19slIK0RJz1AcaWKQ.svg)](https://asciinema.org/a/iuxggSZG19slIK0RJz1AcaWKQ)
+Game 5: Prime
+[![asciicast](https://asciinema.org/a/1y0qBXvVV4rgcjLGEfQyxZJcU.svg)](https://asciinema.org/a/1y0qBXvVV4rgcjLGEfQyxZJcU)
