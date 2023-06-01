@@ -1,6 +1,11 @@
+# Brain Games: the collection of 5 math mini-games
+
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/deusmg/python-project-49/workflows/hexlet-check/badge.svg)](https://github.com/deusmg/python-project-49/actions)
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d870332c7f31108acd3/maintainability)](https://codeclimate.com/github/deusmg/python-project-49/maintainability)
+
+### Brain Games consists of 5 mini-games related to simple math. 
+### The results of the work are given in the questionnaires below:
 
 Game 1: Even
 [![asciicast](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp.svg)](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp)
