@@ -8,7 +8,7 @@ def data_generate():
     stop = start + step * 10
     nums = list(range(start, stop, step))
     point = randint(0, 8)
-    right_answer = f'{nums[point]} {nums[point + 1]}'
-    nums[point], nums[point + 1] = '.', '.'
+    right_answer = f'{nums[point]}'
+    nums[point] = '..'
     question = ' '.join(map(str, nums))
     return question, right_answer
