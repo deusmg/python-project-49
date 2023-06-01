@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "python-project-49"
 version = "0.1.0"
-description = ""
+description = "Math brain-games"
 authors = ["deusmg <laptevap@gmail.com>"]
 readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+repository = "https://github.com/deusmg/python-project-49"
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
