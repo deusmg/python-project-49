@@ -14,6 +14,6 @@ Game 2: Calc
 Game 3: Gcd
 [![asciicast](https://asciinema.org/a/JAgMb6dq3EuAFgeZutCgonPKO.svg)](https://asciinema.org/a/JAgMb6dq3EuAFgeZutCgonPKO)
 Game 4: Progression
-[![asciicast](https://asciinema.org/a/iuxggSZG19slIK0RJz1AcaWKQ.svg)](https://asciinema.org/a/iuxggSZG19slIK0RJz1AcaWKQ)
+[![asciicast](https://asciinema.org/a/5bM26UbhHUFuNNUSBQ4W4LkR7.svg)](https://asciinema.org/a/5bM26UbhHUFuNNUSBQ4W4LkR7)
 Game 5: Prime
 [![asciicast](https://asciinema.org/a/1y0qBXvVV4rgcjLGEfQyxZJcU.svg)](https://asciinema.org/a/1y0qBXvVV4rgcjLGEfQyxZJcU)
