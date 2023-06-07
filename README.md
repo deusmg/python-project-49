@@ -9,11 +9,11 @@
 
 ### The project includes the following games:
 
-Game: "Even Check" - The player needs to determine whether a number is even or not.
-Game: "Calculator" - The player is shown a random mathematical expression that needs to be evaluated and the correct answer recorded.
-Game: "GCD" - "Greatest Common Divisor (GCD)" - The player is shown two random numbers and needs to calculate and enter the greatest common divisor of these numbers.
-Game: "Arithmetic Progression" - The player needs to determine the number hidden by dots ".." among a series of numbers forming an arithmetic progression.
-Game: "Prime or Not" - The player needs to determine whether a number is "prime" or not.
+* Game: **"Even Check"** - The player needs to determine whether a number is even or not.
+* Game: **"Calculator"** - The player is shown a random mathematical expression that needs to be evaluated and the correct answer recorded.
+* Game: **"GCD"** - "Greatest Common Divisor (GCD)" - The player is shown two random numbers and needs to calculate and enter the greatest common divisor of these numbers.
+* Game: **"Arithmetic Progression"** - The player needs to determine the number hidden by dots ".." among a series of numbers forming an arithmetic progression.
+* Game: **"Prime or Not"** - The player needs to determine whether a number is "prime" or not.
 
 #
 
