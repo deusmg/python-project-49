@@ -1,13 +1,13 @@
 from random import randint
-RULE = "Find the greatest common divisor of given numbers."
+from math import gcd
+RULE = 'Find the greatest common divisor of given numbers.'
+FIRST_NUMBER = 1
+SECOND_NUMBER = 1
 
 
-def data_generate():
-    first_number = randint(1, 101)
-    second_number = randint(1, 101)
-    question = f"{first_number} {second_number}"
-    right_answer = 1
-    for i in range(1, min(first_number, second_number) + 1):
-        if first_number % i == 0 and second_number % i == 0:
-            right_answer = i
+def generate_data():
+    FIRST_NUMBER = randint(1, 101)
+    SECOND_NUMBER = randint(1, 101)
+    question = f'{FIRST_NUMBER} {SECOND_NUMBER}'
+    right_answer = gcd(FIRST_NUMBER, SECOND_NUMBER)
     return question, str(right_answer)

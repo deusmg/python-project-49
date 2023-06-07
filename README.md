@@ -5,7 +5,38 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/6d870332c7f31108acd3/maintainability)](https://codeclimate.com/github/deusmg/python-project-49/maintainability)
 
 ### Brain Games consists of 5 mini-games related to simple math. 
-### The results of the work are given in the questionnaires below:
+#
+
+### The project includes the following games:
+
+Game: "Even Check" - The player needs to determine whether a number is even or not.
+Game: "Calculator" - The player is shown a random mathematical expression that needs to be evaluated and the correct answer recorded.
+Game: "GCD" - "Greatest Common Divisor (GCD)" - The player is shown two random numbers and needs to calculate and enter the greatest common divisor of these numbers.
+Game: "Arithmetic Progression" - The player needs to determine the number hidden by dots ".." among a series of numbers forming an arithmetic progression.
+Game: "Prime or Not" - The player needs to determine whether a number is "prime" or not.
+
+#
+
+### How to run the games
+
+```sh
+brain-even              # Launches the "Even Check" game
+brain-calc              # Launches the "Calculator" game
+brain-gcd               # Launches the "GCD" game
+brain-progression       # Launches the "Arithmetic Progression" game
+brain-prime             # Launches the "Prime or Not" game
+```
+#
+### Installation
+
+```sh
+Open your terminal or command prompt.
+Navigate to the directory where you want to download the project.
+Run the following command to clone the repository: git clone git@github.com:deusmg/python-project-49.git
+Once the cloning process is complete, navigate into the project directory: cd python-project-49
+
+make install-package
+```
 
 Game 1: Even
 [![asciicast](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp.svg)](https://asciinema.org/a/mT36ildctVWc1Dz2ZtOZvWKUp)

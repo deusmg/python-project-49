@@ -1,18 +1,24 @@
 import random
 from random import randint
-RULE = "What is the result of the expression?"
+RULE = 'What is the result of the expression?'
+FIRST_NUMBER = 1
+SECOND_NUMBER = 1
 
 
-def data_generate():
-    first_number = randint(1, 100)
-    second_number = randint(1, 100)
-    signs = ['+', '-', '*']
-    operator = random.choice(signs)
-    question = f'{first_number} {operator} {second_number}'
-    if operator == '+':
-        right_answer = first_number + second_number
-    elif operator == '-':
-        right_answer = first_number - second_number
-    elif operator == '*':
-        right_answer = first_number * second_number
+def calculate(num1, num2, operation):
+    if operation == '+':
+        return num1 + num2
+    elif operation == '-':
+        return num1 - num2
+    elif operation == '*':
+        return num1 * num2
+
+
+def generate_data():
+    FIRST_NUMBER = randint(1, 100)
+    SECOND_NUMBER = randint(1, 100)
+    operation = ['+', '-', '*']
+    operator = random.choice(operation)
+    question = f'{FIRST_NUMBER} {operator} {SECOND_NUMBER}'
+    right_answer = calculate(FIRST_NUMBER, SECOND_NUMBER, operator)
     return question, str(right_answer)

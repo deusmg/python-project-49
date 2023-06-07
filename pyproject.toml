@@ -8,6 +8,14 @@ packages = [
   { include = "brain_games" },
 ]
 repository = "https://github.com/deusmg/python-project-49"
+classifiers = [
+    "License :: Free for non-commercial use",
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Education",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.8",
+    "Operating System :: OS Independent"
+]
 [tool.poetry.scripts]
 brain-games = "brain_games.scripts.brain_games:main"
 brain-even = "brain_games.scripts.brain_even:main"
