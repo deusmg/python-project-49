@@ -1,5 +1,7 @@
 from random import randint
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+NUMBER_MIN = 2
+NUMBER_MAX = 100
 
 
 def is_prime(number):
@@ -12,6 +14,6 @@ def is_prime(number):
 
 
 def generate_data():
-    question = randint(2, 101)
+    question = randint(NUMBER_MIN, NUMBER_MAX)
     right_answer = 'yes' if is_prime(question) else 'no'
     return question, right_answer

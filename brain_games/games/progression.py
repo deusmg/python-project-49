@@ -1,18 +1,24 @@
 from random import randint
 RULE = 'What number is missing in the progression?'
-START = 1
-STEP = 1
-STOP = 1
-POINT = 1
+NUMBER_MIN = 1
+NUMBER_MAX = 100
+LIST_LEN = 10
+STEP_MAX = 11
+POINT_MIN = 0
+POINT_MAX = 8
+
+
+def progression_gen(start, step, stop, point):
+    nums = list(range(start, stop, step))
+    nums[point] = '..'
+    return nums
 
 
 def generate_data():
-    START = randint(0, 100)
-    STEP = randint(1, 11)
-    STOP = START + STEP * 10
-    POINT = randint(0, 8)
-    nums = list(range(START, STOP, STEP))
-    right_answer = f'{nums[POINT]}'
-    nums[POINT] = '..'
-    question = ' '.join(map(str, nums))
+    start = randint(NUMBER_MIN, NUMBER_MAX)
+    step = randint(NUMBER_MIN, STEP_MAX)
+    stop = start + step * LIST_LEN
+    point = randint(POINT_MIN, POINT_MAX)
+    right_answer = str(start + step * point)
+    question = ' '.join(map(str, progression_gen(start, step, stop, point)))
     return question, right_answer

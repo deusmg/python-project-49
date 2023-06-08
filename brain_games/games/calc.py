@@ -1,8 +1,8 @@
 import random
 from random import randint
 RULE = 'What is the result of the expression?'
-FIRST_NUMBER = 1
-SECOND_NUMBER = 1
+NUMBER_MIN = 1
+NUMBER_MAX = 100
 
 
 def calculate(num1, num2, operation):
@@ -15,10 +15,10 @@ def calculate(num1, num2, operation):
 
 
 def generate_data():
-    FIRST_NUMBER = randint(1, 100)
-    SECOND_NUMBER = randint(1, 100)
+    first_number = randint(NUMBER_MIN, NUMBER_MAX)
+    second_number = randint(NUMBER_MIN, NUMBER_MAX)
     operation = ['+', '-', '*']
     operator = random.choice(operation)
-    question = f'{FIRST_NUMBER} {operator} {SECOND_NUMBER}'
-    right_answer = calculate(FIRST_NUMBER, SECOND_NUMBER, operator)
+    question = f'{first_number} {operator} {second_number}'
+    right_answer = calculate(first_number, second_number, operator)
     return question, str(right_answer)

@@ -1,5 +1,5 @@
 import prompt
-ATTEMPT_COUNTS = 3
+ATTEMPTS_COUNT = 3
 
 
 def play(game):
@@ -7,7 +7,7 @@ def play(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.RULE)
-    for _ in range(ATTEMPT_COUNTS):
+    for _ in range(ATTEMPTS_COUNT):
         question, right_answer = game.generate_data()
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
